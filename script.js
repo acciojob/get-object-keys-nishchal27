@@ -1,8 +1,6 @@
-//your JS code here. If required.
 const student = {
-	name = 'rahul'
+	name:"ABC"
 }
-
-	student._proto_.getkeys=function(){
+student.__proto__.getKeys=function(){
 	return Object.keys(this)
-	}
+}
